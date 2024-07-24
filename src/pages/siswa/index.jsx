@@ -25,10 +25,10 @@ const DataSiswa = () => {
     {
       id: 1,
       name: "Saiful",
-      address: "Bogor",
-      birthdate: "2000-01-01",
+      address: "Komplek BBD No.10, Depok",
+      birthdate: "2018-01-29",
       parentPhone: "081234567890",
-      group: "A",
+      group: "B",
       studentId: "123456789",
       parentName: "Saifullah",
       status: "Aktif",
@@ -36,12 +36,34 @@ const DataSiswa = () => {
     {
       id: 2,
       name: "Zuhdi",
-      address: "Bogor",
-      birthdate: "2000-01-01",
+      address: "Jl. Jonggol No.1, Depok",
+      birthdate: "2018-05-01",
+      parentPhone: "081234567890",
+      group: "B",
+      studentId: "123456789",
+      parentName: "Jamal",
+      status: "Aktif",
+    },
+    {
+      id: 3,
+      name: "Keyla",
+      address: "Jl. Mangga No.1, Jakarta Timur",
+      birthdate: "2018-01-05",
       parentPhone: "081234567890",
       group: "A",
       studentId: "123456789",
-      parentName: "Jamal",
+      parentName: "Ammar",
+      status: "Aktif",
+    },
+    {
+      id: 4,
+      name: "Michael",
+      address: "Jl. Teratai No.11, Depok",
+      birthdate: "2018-05-05",
+      parentPhone: "081234567890",
+      group: "A",
+      studentId: "123456789",
+      parentName: "Abdul",
       status: "Aktif",
     },
   ]);
@@ -132,7 +154,7 @@ const DataSiswa = () => {
                 <th>Nomor Induk</th>
                 <th>Nama Orang Tua</th>
                 <th>Status Akun</th>
-                <th>Aksi</th>
+                <th>Action</th>
               </tr>
             </thead>
             <tbody>

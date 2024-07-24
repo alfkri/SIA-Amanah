@@ -29,9 +29,19 @@
   color: #000;
 }
 
-@media only screen and (max-width: 480px) {
+/* @media only screen and (max-width: 480px) {
   .menu__list__containerIcon {
     padding: 0.5rem 1rem;
     white-space: normal;
+  }
+} */
+
+@media screen and (max-width: 1024px) {
+  .menu__list__container {
+    padding: 0;
+  }
+  .menu__list__containerIcon {
+    padding: 0.5rem 0.5rem;
+    font-size: 0.7rem;
   }
 }

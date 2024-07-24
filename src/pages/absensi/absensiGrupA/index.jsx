@@ -16,14 +16,24 @@ import {
 } from "../../../styles/AbsensiGrupA.module.css";
 
 const initialData = [
-  { name: "Maria Anders", status: "" },
-  { name: "John Doe", status: "" },
-  { name: "Jane Doe", status: "" },
-  { name: "Michael Smith", status: "" },
+  { name: "Fikri", status: "" },
+  { name: "Maria", status: "" },
+  { name: "Saiful", status: "" },
+  { name: "Budi", status: "" },
+  { name: "Naufal", status: "" },
+  { name: "Jasmine", status: "" },
+  { name: "Sarah", status: "" },
 ];
 
 const AbsensiGrupA = () => {
   const [absensiData, setAbsensiData] = useState(initialData);
+  const [selectedDate, setSelectedDate] = useState(() => {
+    const today = new Date();
+    const year = today.getFullYear();
+    const month = String(today.getMonth() + 1).padStart(2, "0");
+    const day = String(today.getDate()).padStart(2, "0");
+    return `${year}-${month}-${day}`;
+  });
 
   const handleRadioChange = (index, status) => {
     const newAbsensiData = [...absensiData];
@@ -32,8 +42,10 @@ const AbsensiGrupA = () => {
   };
 
   const handleSave = () => {
-    console.log("Data disimpan:", absensiData);
-    // Di sini Anda bisa mengirim data ke backend atau melakukan tindakan lain
+    const dataToSave = {
+      [selectedDate]: absensiData,
+    };
+    console.log("Data disimpan:", dataToSave);
   };
 
   return (
@@ -49,7 +61,11 @@ const AbsensiGrupA = () => {
             </div>
             <div className={absensiGrupA__tanggal}>
               <p>Pilih Tanggal</p>
-              <input type="date" />
+              <input
+                type="date"
+                value={selectedDate}
+                onChange={(e) => setSelectedDate(e.target.value)}
+              />
             </div>
           </div>
           <table className={absensiGrupA__table}>
@@ -116,17 +132,12 @@ const AbsensiGrupA = () => {
               <Image
                 src={require("../../../../public/assets/save.svg")}
                 alt="save"
-              ></Image>
+              />
               Simpan
             </button>
           </div>
           <div style={{ marginTop: "2rem" }}>
-            <p
-              style={{
-                fontWeight: "600",
-                marginBottom: "1rem",
-              }}
-            >
+            <p style={{ fontWeight: "600", marginBottom: "1rem" }}>
               Keterangan Absensi
             </p>
             <table className={absensiGrupA__keterangan}>

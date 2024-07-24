@@ -13,13 +13,28 @@ import {
 
 const TagihanSiswa = () => {
   const dataTagihan = [
-    { bulan: "JAN", tanggalBayar: "12 Januari 2023", status: "LUNAS" },
-    { bulan: "FEB", tanggalBayar: "12 Februari 2023", status: "LUNAS" },
-    { bulan: "MAR", tanggalBayar: "12 Maret 2023", status: "LUNAS" },
-    { bulan: "APR", tanggalBayar: "-", status: "Belum Lunas" },
-    { bulan: "MEI", tanggalBayar: "-", status: "Belum Lunas" },
-    { bulan: "JUN", tanggalBayar: "-", status: "Belum Lunas" },
-    { bulan: "JUL", tanggalBayar: "-", status: "Belum Lunas" },
+    {
+      bulan: "JAN",
+      tagihan: 0,
+      tanggalBayar: "12 Januari 2023",
+      status: "LUNAS",
+    },
+    {
+      bulan: "FEB",
+      tagihan: 0,
+      tanggalBayar: "12 Februari 2023",
+      status: "LUNAS",
+    },
+    {
+      bulan: "MAR",
+      tagihan: 0,
+      tanggalBayar: "12 Maret 2023",
+      status: "LUNAS",
+    },
+    { bulan: "APR", tagihan: 500000, tanggalBayar: "-", status: "Belum Lunas" },
+    { bulan: "MEI", tagihan: 500000, tanggalBayar: "-", status: "Belum Lunas" },
+    { bulan: "JUN", tagihan: 500000, tanggalBayar: "-", status: "Belum Lunas" },
+    { bulan: "JUL", tagihan: 500000, tanggalBayar: "-", status: "Belum Lunas" },
   ];
   return (
     <div className={container__tagihanSiswa}>
@@ -38,6 +53,7 @@ const TagihanSiswa = () => {
             <thead>
               <tr>
                 <th>Bulan</th>
+                <th>Tagihan</th>
                 <th>Tanggal Bayar</th>
                 <th>Status</th>
               </tr>
@@ -46,6 +62,7 @@ const TagihanSiswa = () => {
               {dataTagihan.map((item, index) => (
                 <tr key={index}>
                   <td>{item.bulan}</td>
+                  <td>{item.tagihan}</td>
                   <td>{item.tanggalBayar}</td>
                   <td>
                     <span

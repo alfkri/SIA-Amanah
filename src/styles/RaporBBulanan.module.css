@@ -58,3 +58,30 @@
   padding: 1rem 0;
   color: #828282;
 }
+
+.raporBBulanan__btn__action {
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .raporBBulanan__header > div > p {
+    font-size: 0.7rem;
+  }
+  .raporBBulanan__header > div > h1 {
+    font-size: 1.5rem;
+  }
+  .container__raporBBulanan__content {
+    padding: 1rem;
+    margin: 2rem;
+  }
+  .raporBBulanan__table {
+    font-size: 10px;
+  }
+  .raporBBulanan__btn__action {
+    padding: 0.2rem;
+  }
+}

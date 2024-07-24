@@ -44,6 +44,7 @@
   box-shadow: 1px 0 10px rgba(0, 0, 0, 0.5);
   color: #000;
   width: 25%;
+  font-weight: 600;
 }
 
 .item__left {
@@ -62,11 +63,17 @@
   margin-bottom: 1rem;
 }
 
-.tagihan__data__item > div > p {
-  font-weight: 600;
-}
-
 .tagihan__data__item > p {
   font-weight: 600;
   font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .tagihan__data__item {
+    width: 50%;
+    padding: 1rem;
+  }
+  .tagihan__data__item > p {
+    font-size: 1rem;
+  }
 }

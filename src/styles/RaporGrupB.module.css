@@ -69,3 +69,22 @@
   font-size: 1rem;
   font-weight: 600;
 }
+
+@media screen and (max-width: 1024px) {
+  .raporB__header > div > p {
+    font-size: 0.7rem;
+  }
+  .raporB__header > div > h1 {
+    font-size: 1.5rem;
+  }
+  .container__raporB__content {
+    padding: 1rem;
+    margin: 2rem;
+  }
+  .raporB__btn__tambah {
+    padding: 0.2rem 0.1rem;
+  }
+  .raporB__data > p {
+    font-size: 12px;
+  }
+}

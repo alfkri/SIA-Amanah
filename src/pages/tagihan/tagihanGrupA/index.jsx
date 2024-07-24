@@ -15,7 +15,7 @@ import { useState } from "react";
 
 const initialData = [
   {
-    name: "Fikri",
+    name: "Keyla",
     bulan: {
       JAN: { lunas: true, tanggalBayar: "2024-01-05" },
       FEB: { lunas: true, tanggalBayar: "2024-02-10" },
@@ -32,7 +32,7 @@ const initialData = [
     },
   },
   {
-    name: "Jihad",
+    name: "Michael",
     bulan: {
       JAN: { lunas: true, tanggalBayar: "2024-01-05" },
       FEB: { lunas: true, tanggalBayar: "2024-02-10" },
@@ -49,47 +49,13 @@ const initialData = [
     },
   },
   {
-    name: "Budi",
+    name: "Fikri",
     bulan: {
       JAN: { lunas: true, tanggalBayar: "2024-01-05" },
       FEB: { lunas: true, tanggalBayar: "2024-02-10" },
       MAR: { lunas: true, tanggalBayar: "2024-03-15" },
       APR: { lunas: true, tanggalBayar: "2024-04-20" },
       MEI: { lunas: true, tanggalBayar: "2024-05-25" },
-      JUN: { lunas: false, tanggalBayar: "" },
-      JUL: { lunas: false, tanggalBayar: "" },
-      AGS: { lunas: false, tanggalBayar: "" },
-      SEP: { lunas: false, tanggalBayar: "" },
-      OKT: { lunas: false, tanggalBayar: "" },
-      NOV: { lunas: false, tanggalBayar: "" },
-      DES: { lunas: false, tanggalBayar: "" },
-    },
-  },
-  {
-    name: "Rangga",
-    bulan: {
-      JAN: { lunas: true, tanggalBayar: "2024-01-05" },
-      FEB: { lunas: true, tanggalBayar: "2024-02-10" },
-      MAR: { lunas: true, tanggalBayar: "2024-03-15" },
-      APR: { lunas: true, tanggalBayar: "2024-04-20" },
-      MEI: { lunas: true, tanggalBayar: "2024-05-25" },
-      JUN: { lunas: false, tanggalBayar: "" },
-      JUL: { lunas: false, tanggalBayar: "" },
-      AGS: { lunas: false, tanggalBayar: "" },
-      SEP: { lunas: false, tanggalBayar: "" },
-      OKT: { lunas: false, tanggalBayar: "" },
-      NOV: { lunas: false, tanggalBayar: "" },
-      DES: { lunas: false, tanggalBayar: "" },
-    },
-  },
-  {
-    name: "Jasmine",
-    bulan: {
-      JAN: { lunas: false, tanggalBayar: "" },
-      FEB: { lunas: false, tanggalBayar: "" },
-      MAR: { lunas: false, tanggalBayar: "" },
-      APR: { lunas: false, tanggalBayar: "" },
-      MEI: { lunas: false, tanggalBayar: "" },
       JUN: { lunas: false, tanggalBayar: "" },
       JUL: { lunas: false, tanggalBayar: "" },
       AGS: { lunas: false, tanggalBayar: "" },
@@ -169,7 +135,7 @@ const TagihanGrupA = () => {
                 <th>OKT</th>
                 <th>NOV</th>
                 <th>DES</th>
-                <th>Aksi</th>
+                <th>Action</th>
               </tr>
             </thead>
             <tbody>

@@ -91,3 +91,33 @@
 .guru__table > tbody > tr > td {
   color: #828282;
 }
+
+@media screen and (max-width: 1024px) {
+  .container__guru__content {
+    padding: 1rem;
+    margin: 1rem;
+  }
+  .guru__subheader > div > h1 {
+    font-size: 1.5rem;
+  }
+  .guru__subheader > div > p {
+    font-size: 0.7rem;
+  }
+  .guru__btn__tambah {
+    padding: 0.5rem 1rem;
+    font-size: 0.7rem;
+  }
+  .guru__table {
+    font-size: 0.7rem;
+  }
+  .guru__btn__action {
+    padding: 0rem;
+  }
+  .guru__search {
+    font-size: 0.7rem;
+  }
+  .guru__search > input {
+    padding: 0.3rem;
+    width: 150px;
+  }
+}

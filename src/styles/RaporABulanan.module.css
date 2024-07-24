@@ -66,3 +66,22 @@
   margin: 0.5rem;
   padding: 0.5rem;
 }
+
+@media screen and (max-width: 1024px) {
+  .raporABulanan__header > div > p {
+    font-size: 0.7rem;
+  }
+  .raporABulanan__header > div > h1 {
+    font-size: 1.5rem;
+  }
+  .container__raporABulanan__content {
+    padding: 1rem;
+    margin: 2rem;
+  }
+  .raporABulanan__table {
+    font-size: 10px;
+  }
+  .raporABulanan__btn__action {
+    padding: 0.2rem;
+  }
+}

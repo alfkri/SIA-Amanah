@@ -33,12 +33,8 @@ const RaporSiswaJan = () => {
                   Perkembangan Nilai Moral dan Agama
                 </th>
                 <td className={raporSiswaJan__table__cell}>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
-                  sunt alias atque fugiat fuga vel. Sapiente quis labore ratione
-                  voluptate numquam repellat deserunt illo officia expedita,
-                  repudiandae autem et aliquam dolorum quaerat similique tempore
-                  iste? Exercitationem labore optio soluta autem, illum sint
-                  fuga ipsum eveniet ducimus enim et, culpa consequuntur!
+                  Ananda Fikri sudah mulai bisa menghafal doa makan dan doa
+                  sebelum tidur
                 </td>
               </tr>
               <tr className={raporSiswaJan__table__row}>
@@ -46,13 +42,9 @@ const RaporSiswaJan = () => {
                   Perkembangan Motorik
                 </th>
                 <td className={raporSiswaJan__table__cell}>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Tempore facilis ad fuga placeat voluptate ducimus ipsum
-                  accusamus consequuntur sapiente ratione eius rem, nihil sint,
-                  cumque deleniti? Magni iure, vero ducimus quod nesciunt aut ea
-                  reprehenderit consequatur voluptas dicta labore fugiat
-                  nostrum. Autem hic, quis perspiciatis accusantium ab
-                  distinctio sit incidunt?
+                  Ananda Fikri menunjukkan kemampuan yang baik dalam menggenggam
+                  pensil dan alat gambar. Ia dapat menggambar bentuk sederhana
+                  dan mulai menulis huruf-huruf dasar.
                 </td>
               </tr>
               <tr className={raporSiswaJan__table__row}>
@@ -60,13 +52,8 @@ const RaporSiswaJan = () => {
                   Perkembangan Kognitif
                 </th>
                 <td className={raporSiswaJan__table__cell}>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Neque, maiores modi? Magni doloribus dolore labore illo dolor
-                  veritatis excepturi repudiandae inventore aperiam, numquam
-                  itaque dicta nobis iusto voluptates id deleniti omnis quia
-                  praesentium temporibus corrupti neque aspernatur velit ipsum
-                  voluptatibus? Nam inventore labore vitae provident est
-                  obcaecati atque accusamus perferendis.
+                  Ananda Fikri mampu menyusun puzzle dengan baik dan cepat
+                  mengenali pola dalam permainan balok.
                 </td>
               </tr>
             </tbody>

@@ -18,22 +18,25 @@ const RaporAJanuari = () => {
   const [currentRapor, setCurrentRapor] = useState(null);
   const [students, setStudents] = useState([
     {
-      name: "Saiful",
+      name: "Keyla",
       moral: "-.",
       motorik: "-",
       kognitif: "-",
     },
     {
-      name: "Adi",
+      name: "Michael",
       moral: "-",
       motorik: "-",
       kognitif: "-",
     },
     {
-      name: "Maria",
-      moral: "-",
-      motorik: "-",
-      kognitif: "-",
+      name: "Fikri",
+      moral:
+        "Ananda Fikri sudah mulai bisa menghafal doa makan dan doa sebelum tidur",
+      motorik:
+        "	Ananda Fikri menunjukkan kemampuan yang baik dalam menggenggam pensil dan alat gambar. Ia dapat menggambar bentuk sederhana dan mulai menulis huruf-huruf dasar.",
+      kognitif:
+        "Ananda Fikri mampu menyusun puzzle dengan baik dan cepat mengenali pola dalam permainan balok.",
     },
   ]);
 
@@ -74,7 +77,7 @@ const RaporAJanuari = () => {
             <thead>
               <tr>
                 <th>Nama</th>
-                <th>Perkembangan Nilai Moral dan Agama</th>
+                <th>Perkembangan Nilai Moral & Agama</th>
                 <th>Perkembangan Motorik</th>
                 <th>Perkembangan Kognitif</th>
                 <th>Action</th>

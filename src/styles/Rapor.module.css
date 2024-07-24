@@ -70,3 +70,13 @@
   font-weight: 600;
   font-size: 1.5rem;
 }
+
+@media screen and (max-width: 1024px) {
+  .rapor__data__item {
+    width: 50%;
+    padding: 1rem;
+  }
+  .rapor__data__item > p {
+    font-size: 1rem;
+  }
+}

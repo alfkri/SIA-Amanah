@@ -14,7 +14,7 @@ import {
   guru__subheader,
   guru__btn__action,
   guru__table,
-} from "@/styles/guru.module.css";
+} from "@/styles/Guru.module.css";
 
 const DataGuru = () => {
   const [showModal, setShowModal] = useState(false);
@@ -125,7 +125,7 @@ const DataGuru = () => {
                 <th>NIP</th>
                 <th>Grup</th>
                 <th>Status Akun</th>
-                <th>Aksi</th>
+                <th>Action</th>
               </tr>
             </thead>
             <tbody>

@@ -91,3 +91,33 @@
 .siswa__table > tbody > tr > td {
   color: #828282;
 }
+
+@media screen and (max-width: 1024px) {
+  .container__siswa__content {
+    padding: 1rem;
+    margin: 1rem;
+  }
+  .siswa__subheader > div > h1 {
+    font-size: 1.5rem;
+  }
+  .siswa__subheader > div > p {
+    font-size: 0.7rem;
+  }
+  .siswa__btn__tambah {
+    padding: 0.5rem 1rem;
+    font-size: 0.7rem;
+  }
+  .siswa__table {
+    font-size: 0.7rem;
+  }
+  .siswa__btn__action {
+    padding: 0rem;
+  }
+  .siswa__search {
+    font-size: 0.7rem;
+  }
+  .siswa__search > input {
+    padding: 0.3rem;
+    width: 150px;
+  }
+}
