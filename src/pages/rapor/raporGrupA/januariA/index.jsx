@@ -19,24 +19,24 @@ const RaporAJanuari = () => {
   const [students, setStudents] = useState([
     {
       name: "Keyla",
-      moral: "-.",
-      motorik: "-",
-      kognitif: "-",
+      moral:
+        "Ananda Keyla sudah mulai bisa menghafal doa makan dan doa sebelum tidur",
+      motorik:
+        "Ananda Keyla dapat menggambar bentuk sederhana dan mulai menulis huruf-huruf dasar.",
+      kognitif:
+        "Ananda Keyla mampu menyusun puzzle dengan baik dan cepat mengenali pola dalam permainan balok.",
     },
     {
       name: "Michael",
-      moral: "-",
-      motorik: "-",
-      kognitif: "-",
+      moral: "",
+      motorik: "",
+      kognitif: "",
     },
     {
       name: "Fikri",
-      moral:
-        "Ananda Fikri sudah mulai bisa menghafal doa makan dan doa sebelum tidur",
-      motorik:
-        "	Ananda Fikri menunjukkan kemampuan yang baik dalam menggenggam pensil dan alat gambar. Ia dapat menggambar bentuk sederhana dan mulai menulis huruf-huruf dasar.",
-      kognitif:
-        "Ananda Fikri mampu menyusun puzzle dengan baik dan cepat mengenali pola dalam permainan balok.",
+      moral: "",
+      motorik: "",
+      kognitif: "",
     },
   ]);
 

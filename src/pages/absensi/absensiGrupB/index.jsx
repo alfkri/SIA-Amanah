@@ -16,12 +16,12 @@ import {
 } from "../../../styles/AbsensiGrupA.module.css";
 
 const initialData = [
-  { name: "Keyla", status: "" },
-  { name: "Michael", status: "" },
-  { name: "Fikri", status: "" },
+  { name: "Saiful", status: "" },
+  { name: "Zuhdi", status: "" },
+  { name: "Anam", status: "" },
 ];
 
-const AbsensiGrupA = () => {
+const AbsensiGrupB = () => {
   const [absensiData, setAbsensiData] = useState(initialData);
   const [selectedDate, setSelectedDate] = useState(() => {
     const today = new Date();
@@ -167,4 +167,4 @@ const AbsensiGrupA = () => {
   );
 };
 
-export default AbsensiGrupA;
+export default AbsensiGrupB;

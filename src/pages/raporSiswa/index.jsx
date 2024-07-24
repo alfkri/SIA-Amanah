@@ -24,19 +24,19 @@ const RaporSiswa = () => {
             </div>
           </div>
           <div className={raporSiswa__data}>
-            <p>Bulan Januari 2024</p>
+            <p>Bulan Januari 2023</p>
             <Link href="/raporSiswa/raporSiswaJan">details</Link>
           </div>
           <div className={raporSiswa__data}>
-            <p>Bulan Februari 2024</p>
+            <p>Bulan Februari 2023</p>
             <Link href="/rapor/raporGrupA/februariA">details</Link>
           </div>
           <div className={raporSiswa__data}>
-            <p>Bulan Maret 2024</p>
+            <p>Bulan Maret 2023</p>
             <Link href="/rapor/raporGrupA/maretA">details</Link>
           </div>
           <div className={raporSiswa__data}>
-            <p>Bulan April 2024</p>
+            <p>Bulan April 2023</p>
             <Link href="/rapor/raporGrupA/maretA">details</Link>
           </div>
           {/* <div className={raporA__data}>
