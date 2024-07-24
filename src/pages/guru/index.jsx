@@ -147,7 +147,7 @@ const DataGuru = () => {
                     >
                       <Image
                         style={{ width: "20px", height: "20px" }}
-                        src={require("../../../public/assets/Edit.svg")}
+                        src={require("../../../public/assets/edit.svg")}
                         alt="edit"
                       />
                     </button>

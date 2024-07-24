@@ -15,7 +15,7 @@ import {
   siswa__btn__action,
   siswa__table,
 } from "@/styles/Siswa.module.css";
-import EditLogo from "../../../public/assets/Edit.svg";
+import EditLogo from "../../../public/assets/edit.svg";
 
 const DataSiswa = () => {
   const [showModal, setShowModal] = useState(false);
