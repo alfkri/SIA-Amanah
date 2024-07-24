@@ -1,0 +1,50 @@
+/* styles/FormSPP.module.css */
+.formSPP__container {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  border-radius: 5px;
+}
+
+.formSPP__container > h1 {
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.formSPP__input {
+  margin-bottom: 1rem;
+}
+
+.formSPP__input label {
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.formSPP__input input,
+.formSPP__input select {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.formSPP__btn__save,
+.formSPP__btn__delete {
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-weight: bold;
+  border: none;
+}
+
+.formSPP__btn__save {
+  background-color: #fff;
+  color: #02bde3;
+}
+
+.formSPP__btn__delete {
+  background-color: #ff1911d7;
+  color: white;
+}

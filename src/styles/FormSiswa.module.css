@@ -1,0 +1,44 @@
+.formSiswa__container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.formSiswa__input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+}
+
+.formSiswa__container > h1 {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.formSiswa__input > label {
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.formSiswa__input > input {
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: 1px solid #828282;
+}
+
+.formSiswa__input > select {
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: 1px solid #828282;
+}
+
+.formSiswa__btn__save {
+  background-color: #fff;
+  color: #02bde3;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-weight: bold;
+}

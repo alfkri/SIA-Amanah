@@ -1,0 +1,131 @@
+.container__absensiGrupA__main {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.container__absensiGrupA {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.container__absensiGrupA__content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 3rem;
+  background-color: #fff;
+  padding: 3rem;
+}
+
+.absensiGrupA__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.absensiGrupA__btn__tambah {
+  background-color: #02bde3;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  padding: 0.5rem 3rem;
+  cursor: pointer;
+}
+
+.absensiGrupA__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.absensiGrupA__header > div > h1 {
+  color: #02bde3;
+  margin-bottom: 0.5rem;
+}
+
+.absensiGrupA__header > div > p {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.absensiGrupA__tanggal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.absensiGrupA__tanggal > input {
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.absensiGrupA__data {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+.absensiGrupA__data > p {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.absensiGrupA__table {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.absensiGrupA__table > thead > tr > th {
+  color: #828282;
+}
+
+.absensiGrupA__table > tbody > tr > td {
+  padding: 1rem 0;
+  color: #828282;
+}
+
+.absensiGrupA__table__radio {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.absensiGrupA__btn__save {
+  background-color: #02bde3;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  padding: 0.5rem 3rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+}
+
+.absensiGrupA__btn__container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.absensiGrupA__keterangan {
+  padding: 1rem;
+  border: 1px solid #02bde3;
+  border-radius: 10px;
+}

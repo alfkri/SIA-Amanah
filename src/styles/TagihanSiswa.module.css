@@ -1,0 +1,76 @@
+.container__tagihanSiswa__main {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.container__tagihanSiswa {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.container__tagihanSiswa__content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 3rem;
+  background-color: #fff;
+  padding: 3rem;
+}
+
+.tagihanSiswa__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.tagihanSiswa__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tagihanSiswa__header > div > h1 {
+  color: #02bde3;
+  margin-bottom: 0.5rem;
+}
+
+.tagihanSiswa__header > div > p {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.tagihanSiswa__table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.tagihanSiswa__table th,
+.tagihanSiswa__table td {
+  padding: 1rem;
+  text-align: center;
+}
+
+.tagihanSiswa__table th {
+  color: #828282;
+}
+
+.tagihanSiswa__table td {
+  font-weight: 600;
+}
+
+.statusLunas {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.statusBelumLunas {
+  color: #dc3545;
+  font-weight: bold;
+}

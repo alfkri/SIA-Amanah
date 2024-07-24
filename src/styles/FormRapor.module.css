@@ -1,0 +1,40 @@
+.formRapor__container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.formRapor__input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+}
+
+.formRapor__container > h1 {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.formRapor__input > label {
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.formRapor__input > textarea {
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: 1px solid #828282;
+  width: 100%;
+  height: 150px;
+}
+
+.formRapor__btn__save {
+  background-color: #fff;
+  color: #02bde3;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  cursor: pointer;
+  margin-top: 1rem;
+  font-weight: bold;
+}

@@ -1,0 +1,130 @@
+.container__absensiSiswa__main {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.container__absensiSiswa {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.container__absensiSiswa__content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 3rem;
+  background-color: #fff;
+  padding: 3rem;
+}
+
+.absensiSiswa__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.absensiSiswa__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.absensiSiswa__header > div > h1 {
+  color: #02bde3;
+  margin-bottom: 0.5rem;
+}
+
+.absensiSiswa__header > div > p {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.absensiSiswa__calendar {
+  margin-top: 20px;
+}
+
+.absensiSiswa__monthNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.absensiSiswa__weekDays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+  margin-top: 10px;
+}
+
+.absensiSiswa__days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.absensiSiswa__day {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.absensiSiswa__day span {
+  font-weight: bold;
+}
+
+.hadir {
+  background-color: #28a745;
+  color: white;
+}
+
+.izin {
+  background-color: #ffc107;
+  color: white;
+}
+
+.alfa {
+  background-color: #dc3545;
+  color: white;
+}
+
+.sakit {
+  background-color: aqua;
+  color: white;
+}
+
+.absensiSiswa__rekap {
+  margin-top: 20px;
+}
+
+.rekapCard {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.rekapCard div {
+  text-align: center;
+}
+
+.rekapCard h4 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.rekapCard p {
+  margin: 5px 0 0 0;
+  font-size: 18px;
+  font-weight: bold;
+}

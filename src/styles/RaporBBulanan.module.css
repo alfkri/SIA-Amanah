@@ -1,0 +1,60 @@
+.container__raporBBulanan__main {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.container__raporBBulanan {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.container__raporBBulanan__content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 3rem;
+  background-color: #fff;
+  padding: 3rem;
+}
+
+.raporBBulanan__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.raporBBulanan__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.raporBBulanan__header > div > h1 {
+  color: #02bde3;
+  margin-bottom: 0.5rem;
+}
+
+.raporBBulanan__header > div > p {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.raporBBulanan__table {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.raporBBulanan__table > thead > tr > th {
+  color: #828282;
+}
+
+.raporBBulanan__table > tbody > tr > td {
+  padding: 1rem 0;
+  color: #828282;
+}

@@ -1,0 +1,94 @@
+.container__raporSiswaJan__main {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.container__raporSiswaJan {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.container__raporSiswaJan__content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 3rem;
+  background-color: #fff;
+  padding: 3rem;
+}
+
+.raporSiswaJan__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.raporSiswaJan__btn__tambah {
+  background-color: #02bde3;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  padding: 0.5rem 3rem;
+  cursor: pointer;
+}
+
+.raporSiswaJan__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.raporSiswaJan__header > div > h1 {
+  color: #02bde3;
+  margin-bottom: 0.5rem;
+}
+
+.raporSiswaJan__header > div > p {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.raporSiswaJan__data {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+.raporSiswaJan__data > p {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.raporSiswaJan__table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.raporSiswaJan__table__row {
+  border-bottom: 1px solid #ddd;
+}
+
+.raporSiswaJan__table__cell {
+  padding: 10px;
+  vertical-align: top;
+}
+
+.raporSiswaJan__table__cell:nth-child(1) {
+  width: 30%;
+  font-weight: bold;
+  text-align: left;
+  background-color: #f4f4f4;
+}
